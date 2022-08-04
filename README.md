@@ -55,3 +55,10 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### v 0.6 
 
 - Completed new-releases section
+
+### v0.7 
+
+- Completed playstation-plus section  
+- Completed sales section  
+
+
