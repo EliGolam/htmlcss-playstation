@@ -61,4 +61,8 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 - Completed playstation-plus section  
 - Completed sales section  
 
+### V 0.8 
+
+- Completed HTML content
+
 

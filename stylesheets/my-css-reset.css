@@ -22,8 +22,8 @@ body {
 
 /* ELEMENT DEFAULTS */
 /* Remove list styles on ul and ol that have a class */
-ul[class], 
-ol[class] {
+ul, 
+ol {
     list-style: none;
     list-style-type: none;
 } 
