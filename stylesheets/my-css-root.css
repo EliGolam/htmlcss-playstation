@@ -1,0 +1,19 @@
+:root {
+    /* COLOUR SCHEME */
+    --clr-primary: #00439c;
+
+    /* FONT */
+    /* font: font-style font-variant font-weight font-size/line-height font-family; */
+    --fontfamily-default: 'Roboto', Helvetica, Arial, sans-serif;
+
+    /* SPACING */
+    --flow-spacing: 1em;
+
+    --gap: 3rem;
+    --small-gap: 1rem;
+}
+
+body {
+    font-family: var(--fontfamily-default); 
+}
+
