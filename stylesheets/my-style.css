@@ -1,5 +1,10 @@
 /* *************************************************************************** */
 /*#region : UTILITIES */
+.ms_img-banner {
+    object-fit: cover;
+    object-position: center;
+    width: auto;
+}
 /*#endregion : UTITLITIES */
 /* *************************************************************************** */
 
@@ -27,13 +32,16 @@
 /* ************************************ */
 /*#region : carousel */
 .hero-carousel-img {
-    object-fit: cover;
-    object-position: center;
     min-height: 500px;
-    width: auto;
 }
 /*#endregion : carousel */
 
+/* ************************************ */
+/*#region : popular-games */
+.ms_game-banner {
+    min-height: 400px;
+}
+/*#endregion : popular-games */
 
 /*#endregion : BLOCKS */
 /* *************************************************************************** */

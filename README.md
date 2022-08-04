@@ -47,3 +47,7 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### v 0.4 : 
 
 - Completed playstation-products section
+
+### v 0.5
+
+- Completed popular-games section
