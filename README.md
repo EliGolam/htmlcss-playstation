@@ -51,3 +51,7 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### v 0.5
 
 - Completed popular-games section
+
+### v 0.6 
+
+- Completed new-releases section
