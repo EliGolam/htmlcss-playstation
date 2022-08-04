@@ -35,3 +35,7 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### v 0.2 : 
 
 - Completed sony-header section
+
+### v 0.2.1 : 
+
+- Completed top-nav section
