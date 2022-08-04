@@ -106,14 +106,15 @@
                                 <li><a href="#">PSN Status</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
+                    </ul>
+                    <a class="nav-link dropdown-toggle" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
                             <ul class="dropdown-menu" aria-labelledby="user-dropdown">
                                 <li><a href="#">Profile</a></li>
                                 <li><a href="#">Settings</a></li>
                             </ul>
-                        </li>
-                    </ul>
+                    <!-- CTA Login -->
+                    <button class="btn btn-dark rounded-5 px-4" type="button">Login</button>
+                    <!-- Search bar -->
                     <form action="#" class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
@@ -126,11 +127,49 @@
     <!-- ************************************************************************************** -->
     <!--#region : MAIN -->
         <!--#region : carousel -->
-            <!-- h2 : Explore our Games! or Aria-label -->
+        <header id="hero-carousel" class="hero-carousel position-relative" aria-labelledby="hero-carousel-title">
+            <h2 id="hero-carousel-title" class="hero-carousel-title visually-hidden">Explore our Games</h2>
+            
+            <div>
+                <div>
+                    <img class="hero-carousel-img" src="./assets/img/jumbo-bg.png" alt="">
+                </div>
+                <div class="container position-absolute bottom-0 text-white py-4">
+                    <img class="img-fluid w-50" src="./assets/img/returnal-hero-banner-logo.png" alt="Returnal">
+                    <h3>Break the Cycle</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque maiores soluta quam vel ipsa? Impedit quibusdam assumenda labore eaque. Et.</p>
+                    <a class="btn btn-primary rounded-5 px-4" href="#">Download Now</a>
+                </div>
+            </div>
+        </header>
             <!-- container-fluid, background-image, buy now call to action -->
         <!--#endregion : carousel -->
 
         <!--#region : section - playstation-products -->
+        <section id="playstation-products">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Here's the playstation 5! (kind of)</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, error!</p>
+                        <h3>Playstation 5</h3>
+                        <p>Experience an all-new generation of incredible PlayStation games.</p>
+                        <a class="btn btn-primary rounded-5 px-4 fw-bold text-white" href="#">Learn More</a>
+                        <a class="btn btn-primary rounded-5 px-4 fw-bold text-white" href="#">Register your interest</a>
+                    </div>
+                
+                    <div class="col-12">
+                        <img src="./assets/img/playstation-5-thumb.png" alt="Playstation 5 console">
+                    </div>
+
+                    <div class="col-4"><img class="img-thumbnail border-0 opacity-75" src="./assets/img/playstation-5-thumb.png" alt="Playstation 5"></div>
+                    <div class="col-4"><img class="img-thumbnail border-0 opacity-75" src="./assets/img/joypad-thumb.png" alt="Joypad"></div>
+                    <div class="col-4"><img class="img-thumbnail border-0 opacity-75" src="./assets/img/headset-thumb.png" alt="Playstation Headset"></div>
+                    <div class="col-4"><img class="img-thumbnail border-0 opacity-75" src="./assets/img/remote-thumb.png" alt="Playstation Remote"></div>
+                    <div class="col-4"><img class="img-thumbnail border-0 opacity-75" src="./assets/img/camera-thumb.jpg" alt="PlayStation VR Headset"></div>
+                </div>
+            </div>
+        </section>
             <!-- h2 : Want a playstation 5? Tough Luck! -->
             <!-- h3 : Console Playstation 5 -->
             <!-- Info, cta-btn, Image -->

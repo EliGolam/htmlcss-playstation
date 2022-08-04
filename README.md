@@ -39,3 +39,7 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### v 0.2.1 : 
 
 - Completed top-nav section
+
+### v 0.3 : 
+
+- Completed hero-carousel section

@@ -25,6 +25,15 @@
 /*#endregion : nav-bar */
 
 /* ************************************ */
+/*#region : carousel */
+.hero-carousel-img {
+    object-fit: cover;
+    object-position: center;
+    min-height: 500px;
+    width: auto;
+}
+/*#endregion : carousel */
+
 
 /*#endregion : BLOCKS */
 /* *************************************************************************** */
