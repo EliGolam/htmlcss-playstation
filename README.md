@@ -43,3 +43,7 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### v 0.3 : 
 
 - Completed hero-carousel section
+
+### v 0.4 : 
+
+- Completed playstation-products section
