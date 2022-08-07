@@ -10,7 +10,7 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 #### Division of webpage document
 
 1. DIV - Sony Logo :  
-    this is a very simple section with a dark background and white **SONY logo**. It's almost an **aesthetic element** so I think it would be better to **not use any headings** for this.  
+    this is a very simple section with a dark background and white **SONY logo**. It's almost an **aesthetic element** so I think it would be better to **not use any headings** for this.
 2. NAV - nav-bar :
     This is the **main navigation** bar of the entire document. So, particular attention should be put to its **functionality and accessibility(ARIA)**.
     It contains the website's **H1** Heading that should be visually hidden, but present near the Playstation Logo.
@@ -36,6 +36,30 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 12. FOOTER - page-footer :
     Various lists of useful links for navigating the playstation website.
 
+### STEP 2: Choice of Guidelines
+For this project, the framework chosen is **Bootstrap** for its ready-to-use capabilities and flexibility, perfectly valid for this project requiring proper responsiveness for both Mobile and Desktop user with a few complex interactions (such as the carousel) that the Framework has already implemented.
+
+For proper accessibility, this project uses the guidelines provided by [**Carnegie Museums**](http://web-accessibility.carnegiemuseums.org/) and [**Accessible Rich Internet Applications (WAI-ARIA) 1.3**](https://w3c.github.io/aria/).
+
+### Step 3: Layout Mockups
+
+Layout mockups were provided by **Boolean**.
+[ADD IMAGES]
+
+## DEVELOPMENT
+
+### sony-header
+
+This is a simple element which was implemented exclusively in Bootstrap. Only the width of the **img** displaying the sony logo itself required the use of the **my-style.css** stylesheet for sizing. Since it appears to be mostly a decorative section, no ARIA was implemented other than the **alt** within the img tag. 
+
+### top-nav
+
+For appropriate UX it seems reasonable for the top-nav element to be always available at the top of the page. Its small size, non-intrusive and non-distracting simple looks makes it perfect for this purpose. For this reason it has been implemented as a **position: sticky** element. Sticky has been chosen over position: absolute because of the [**sony-header**](#sony-header) element present above it.  
+The navigation bar is a **collapsable** element created through appropriate **Bootstrap classes**: [Toggled Navbar in Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#responsive-behaviors)
+An **aria-label** and **role** are added for Accessibility.
+
+The nav-bar contains a **clickable svg** element contained within an anchor tag **navbar-brand** displaying the PlayStation Logo that is always visible whether the nav-bar is collapsed or not.
+The 
 ## VERSIONS
 
 ### v 0.1
@@ -75,3 +99,8 @@ In the **mobile layout** most elements are stacked vertically, therefore it's qu
 ### V 0.8
 
 - Completed HTML content
+
+### V 0.9
+
+- Updated **README** Documentation
+- Started implementing ARIA accessibility

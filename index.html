@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- FONTS -->
+    <!-- Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet"> 
@@ -31,101 +32,98 @@
 <body>
     <!-- ************************************************************************************** -->
     <!--#region : Sony Header -->
-        <!-- Not fixed, Simple, Black Background white text -->
-        <div id="sony-header" class="sony-header d-flex justify-content-end p-2 bg-black">
-            <img class="img-fluid" src="./assets/img/sony_logo.svg" alt="Sony Logo">
-        </div>
+    <div id="sony-header" class="sony-header d-flex justify-content-end p-2 bg-black">
+        <img class="img-fluid" src="./assets/img/sony_logo.svg" alt="Sony Logo">
+    </div>
     <!--#endregion : Sony Header -->
     <!-- ************************************************************************************** -->
 
     <!-- ************************************************************************************** -->
     <!--#region : Nav-bar -->
-        <!-- Position: sticky, top 0, collapsing nav-bar. Contains H1 Title of the screen: Playstation -->
-        <nav id="top-nav" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-            <h1 id="title" class="visually-hidden">Playstation</h1>
-            <div class="container-fluid">
-                <!-- Navbar while collapsed -->
-                <a class="navbar-brand" href="#" target="_blank">
-                    <svg class="shared-nav-ps-logo fs-2" role="img" aria-label="Playstation" width="2em" height="auto" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-res-id="51237b9e-85bdd8e5" data-di-rand="1620209019838">
-                        <g>
-                        <g>
-                            <path d="M5.8,32.1C4.3,33.1,4.8,35,8,35.9c3.3,1.1,6.9,1.4,10.4,0.8c0.2,0,0.4-0.1,0.5-0.1v-3.4l-3.4,1.1
+    <nav id="top-nav" class="navbar sticky-top navbar-expand-lg navbar-light bg-light" aria-label="Top Playstation Menu" role="navigation">  
+        <div class="container-fluid">
+            <!-- Navbar while collapsed -->
+            <a class="navbar-brand" href="#" target="_blank">
+                <svg class="fs-2" role="img" aria-labelledby="ps-logo" width="2em" height="auto" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-res-id="51237b9e-85bdd8e5" data-di-rand="1620209019838">
+                    <title id="ps-logo">PlayStation</title>
+                    <g><g><path d="M5.8,32.1C4.3,33.1,4.8,35,8,35.9c3.3,1.1,6.9,1.4,10.4,0.8c0.2,0,0.4-0.1,0.5-0.1v-3.4l-3.4,1.1
                          c-1.3,0.4-2.6,0.5-3.9,0.2c-1-0.3-0.8-0.9,0.4-1.4l6.9-2.4V27l-9.6,3.3C8.1,30.7,6.9,31.3,5.8,32.1z M29,17.1v9.7
                          c4.1,2,7.3,0,7.3-5.2c0-5.3-1.9-7.7-7.4-9.6C26,11,23,10.1,20,9.5v28.9l7,2.1V16.2c0-1.1,0-1.9,0.8-1.6C28.9,14.9,29,16,29,17.1z
                           M42,29.8c-2.9-1-6-1.4-9-1.1c-1.6,0.1-3.1,0.5-4.5,1l-0.3,0.1v3.9l6.5-2.4c1.3-0.4,2.6-0.5,3.9-0.2c1,0.3,0.8,0.9-0.4,1.4
-                         l-10,3.7V40L42,34.9c1-0.4,1.9-0.9,2.7-1.7C45.4,32.2,45.1,30.8,42,29.8z" fill="#0070d1"></path>
-                        </g>
-                        </g>
-                    </svg>
-                </a>
-                <button class="navbar-toggler" type="button" aria-label="Toggle navigation" data-bs-toggle="collapse" data-bs-target="#navbarExpanded" aria-controls="navbarExpanded" aria-expanded="false">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Expanded Navbar -->
-                <div id="navbarExpanded" class="collapse navbar-collapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="games" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
-                            <ul class="dropdown-menu" aria-labelledby="games">
-                                <li><a href="#">PS5</a></li>
-                                <li><a href="#">PS4</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="hardware" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
-                            <ul class="dropdown-menu" aria-labelledby="hardware">
-                                <li><a href="#">PS5</a></li>
-                                <li><a href="#">PS4</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="services" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                            <ul class="dropdown-menu" aria-labelledby="services">
+                         l-10,3.7V40L42,34.9c1-0.4,1.9-0.9,2.7-1.7C45.4,32.2,45.1,30.8,42,29.8z" fill="#0070d1"></path></g></g>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation Menu" data-bs-toggle="collapse" data-bs-target="#navbarExpanded" aria-controls="navbarExpanded" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Expanded Navbar -->
+            <div id="navbarExpanded" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="games" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
+                        <ul class="dropdown-menu" aria-labelledby="games">
+                            <li><a href="#">PS5</a></li>
+                            <li><a href="#">PS4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="hardware" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hardware</a>
+                        <ul class="dropdown-menu" aria-labelledby="hardware">
+                            <li><a href="#">PS5</a></li>
+                            <li><a href="#">PS4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="services" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="services">
                                 <li><a href="#">PS Plus</a></li>
-                                <li><a href="#">Playstation 5 Entertainement</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="news" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
-                            <ul class="dropdown-menu" aria-labelledby="news">
-                                <li><a href="#">PS Blog</a></li>
-                                <li><a href="#">This Month on Playstation</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="shop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
-                            <ul class="dropdown-menu" aria-labelledby="shop">
-                                <li><a href="#">Hardware and Discs</a></li>
-                                <li><a href="#">Digital Games and Services</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="support" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support</a>
-                            <ul class="dropdown-menu" aria-labelledby="support">
-                                <li><a href="#">Support</a></li>
-                                <li><a href="#">PSN Status</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <a class="nav-link dropdown-toggle" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
-                            <ul class="dropdown-menu" aria-labelledby="user-dropdown">
-                                <li><a href="#">Profile</a></li>
-                                <li><a href="#">Settings</a></li>
-                            </ul>
-                    <!-- CTA Login -->
-                    <button class="btn btn-dark rounded-5 px-4" type="button">Login</button>
-                    <!-- Search bar -->
-                    <form action="#" class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    </form>
-                </div>
+                            <li><a href="#">Playstation 5 Entertainement</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="news" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                        <ul class="dropdown-menu" aria-labelledby="news">
+                            <li><a href="#">PS Blog</a></li>
+                            <li><a href="#">This Month on Playstation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="shop" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                        <ul class="dropdown-menu" aria-labelledby="shop">
+                            <li><a href="#">Hardware and Discs</a></li>
+                            <li><a href="#">Digital Games and Services</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="support" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Support</a>
+                        <ul class="dropdown-menu" aria-labelledby="support">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">PSN Status</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <a class="nav-link dropdown-toggle" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
+                <ul class="dropdown-menu" aria-labelledby="user-dropdown">
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+                <!-- CTA Login -->
+                <button class="btn btn-dark rounded-5 px-4" type="button">Login</button>
+                <!-- Search bar -->
+                <form action="#" class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </div>
-        </nav>
+        </div>
+    </nav>
     <!--#endregion : Nav-bar -->
     <!-- ************************************************************************************** -->
-
+ 
     <!-- ************************************************************************************** -->
     <!--#region : MAIN -->
+    <main>
+        <h1 id="title" class="visually-hidden">Playstation</h1>
         <!--#region : carousel -->
         <header id="hero-carousel" class="hero-carousel position-relative" aria-labelledby="hero-carousel-title">
             <h2 id="hero-carousel-title" class="hero-carousel-title visually-hidden">Explore our Games</h2>
@@ -142,7 +140,7 @@
                 </div>
             </div>
         </header>
-            <!-- container-fluid, background-image, buy now call to action -->
+
         <!--#endregion : carousel -->
 
         <!--#region : section - playstation-products -->
@@ -300,6 +298,7 @@
             </div>
         </section> 
         <!--#endregion : section - social-links -->
+    </main>
     <!--#endregion : MAIN -->
     <!-- ************************************************************************************** -->
 
