@@ -5,12 +5,22 @@
     object-position: center;
     width: auto;
 }
+
+.ms_link-hover {
+    border-bottom: 2px solid transparent;
+    transition: border-color 350ms ease;
+}
+
+.ms_link-hover:hover {
+    border-color: var(--clr-primary);
+} 
 /*#endregion : UTITLITIES */
 /* *************************************************************************** */
 
 
 /* *************************************************************************** */
 /*#region : Global elements layout and defaults */
+
 /*end#region : Global elements layout and defaults */
 /* *************************************************************************** */
 

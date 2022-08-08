@@ -117,3 +117,7 @@ I added the nested tag **title** following [W3C specifications](https://www.w3.o
 ### V 0.9.1
 
 - Improved Semantics and functionality of **top-nav**
+
+### V 0.9.2
+
+- Improved **top-nav**
