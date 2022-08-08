@@ -58,7 +58,7 @@
             </button>
             <!-- Expanded Navbar -->
             <div id="navbarExpanded" class="collapse navbar-collapse">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-grow-1">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="games" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Games</a>
                         <ul class="dropdown-menu" aria-labelledby="games">
@@ -101,17 +101,43 @@
                             <li><a href="#">PSN Status</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item dropdown ms-auto">
+                        <a class="nav-link dropdown-toggle" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
+                        <ul class="dropdown-menu" aria-labelledby="user-dropdown">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn btn-dark rounded-5 px-4 text-light" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Login</a>
+                        <div class="dropdown-menu">
+                            <form class="px-4 py-3">
+                              <div class="mb-3">
+                                <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                              </div>
+                              <div class="mb-3">
+                                <div class="form-check">
+                                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                  <label class="form-check-label" for="dropdownCheck">
+                                    Remember me
+                                  </label>
+                                </div>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Sign in</button>
+                            </form>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">New around here? Sign up</a>
+                            <a class="dropdown-item" href="#">Forgot password?</a>
+                        </div>
+                    </li>
                 </ul>
-
-                <a class="nav-link dropdown-toggle" id="user-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Playstation</a>
-                <ul class="dropdown-menu" aria-labelledby="user-dropdown">
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
-                <!-- CTA Login -->
-                <button class="btn btn-dark rounded-5 px-4" type="button">Login</button>
                 <!-- Search bar -->
-                <form action="#" class="d-flex">
+                <form action="#" class="d-flex ms-3">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 </form>
             </div>

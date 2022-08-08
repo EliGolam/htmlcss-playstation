@@ -58,8 +58,17 @@ For appropriate UX it seems reasonable for the top-nav element to be always avai
 The navigation bar is a **collapsable** element created through appropriate **Bootstrap classes**: [Toggled Navbar in Bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/#responsive-behaviors)
 An **aria-label** and **role** are added for Accessibility.
 
-The nav-bar contains a **clickable svg** element contained within an anchor tag **navbar-brand** displaying the PlayStation Logo that is always visible whether the nav-bar is collapsed or not.
-The 
+The nav-bar contains a **clickable svg** element contained within an anchor tag **navbar-brand** displaying the PlayStation Logo that is always visible whether the nav-bar is collapsed or not. The **width** and **height** attributes have been modified following [Bootstrap guidelines for svg](https://icons.getbootstrap.com/#usage): using **width=2em** and **height=auto** allows the size of the svg to be easily handled by [font-sizing classes available in Bootstrap](https://getbootstrap.com/docs/5.0/utilities/text/#font-size).
+
+For accessibility, I added attributes within the svg:
+
+- **role="img"** makes sure the SVG is not traversed by browsers that map the SVG to the group role.
+- **aria-labelledby** to allow screen-reader to read the title tag within the svg.
+
+I added the nested tag **title** following [W3C specifications](https://www.w3.org/TR/SVG11/struct.html#DescriptionAndTitleElements).
+
+--------------------------
+
 ## VERSIONS
 
 ### v 0.1
@@ -104,3 +113,7 @@ The
 
 - Updated **README** Documentation
 - Started implementing ARIA accessibility
+
+### V 0.9.1
+
+- Improved Semantics and functionality of **top-nav**
